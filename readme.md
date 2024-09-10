@@ -22,10 +22,6 @@ pnpm install @alisaitteke/typebot-vue
 ### Standard View 
 ![screenshot](public/icons/components/standard.svg)
 
-```vue
-<type-bot-standard/>
-```
-
 This component integrates the Typebot in a standard format. The bot is displayed directly on the page.
 
 #### Example Usage
@@ -45,9 +41,6 @@ const typeBotStandardConfig = {
 ### Popup View
 ![screenshot](public/icons/components/popup.svg)
 
-```vue
-<type-bot-popup/>
-```
 
 This component displays Typebot as a popup. You can control when the popup automatically appears using autoShowDelay after the page has loaded.
 
@@ -68,10 +61,6 @@ const typeBotPopupConfig = {
 ---
 ### Bubble View
 ![screenshot](public/icons/components/bubble.svg)
-
-```vue
-<type-bot-bubble/>
-```
 
 This component displays a chat bubble in the corner of the page. When the user clicks on the bubble, the chatbot opens. You can also customize the theme and the preview message displayed on the bubble.
 
