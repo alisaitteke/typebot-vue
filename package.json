@@ -1,6 +1,6 @@
 {
   "name": "@alisaitteke/typebot-vue",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": false,
   "description": "Typebot Vue 3 Addon",
   "main": "dist/index.js",
