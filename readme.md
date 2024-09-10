@@ -5,9 +5,9 @@
 
 ### Install
 ```shell
-yarn install @alisaitteke/typebot-vue
+yarn add @alisaitteke/typebot-vue
 npm install @alisaitteke/typebot-vue
-pnpm install @alisaitteke/typebot-vue
+pnpm add @alisaitteke/typebot-vue
 ```
 
 ---
