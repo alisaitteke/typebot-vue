@@ -20,10 +20,11 @@ pnpm install @alisaitteke/typebot-vue
 ## Components
 
 ### Standard View 
+![screenshot](public/icons/components/standard.svg)
+
 ```vue
 <type-bot-standard/>
 ```
-![screenshot](public/icons/components/standard.svg)
 
 This component integrates the Typebot in a standard format. The bot is displayed directly on the page.
 
@@ -42,6 +43,8 @@ const typeBotStandardConfig = {
 ```
 ---
 ### Popup View
+![screenshot](public/icons/components/popup.svg)
+
 ```vue
 <type-bot-popup/>
 ```
@@ -64,6 +67,8 @@ const typeBotPopupConfig = {
 ```
 ---
 ### Bubble View
+![screenshot](public/icons/components/bubble.svg)
+
 ```vue
 <type-bot-bubble/>
 ```
