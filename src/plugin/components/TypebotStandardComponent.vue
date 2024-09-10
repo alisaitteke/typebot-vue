@@ -1,11 +1,24 @@
 <template>
-  <typebot-standard style="width: 100%; height: 600px; "></typebot-standard>
+  <typebot-standard></typebot-standard>
 </template>
 
 <script setup lang="ts">
-import {ref, onMounted} from 'vue'
+import {onMounted} from 'vue'
+
+interface Props {
+  config: object
+}
+
+const props = withDefaults(defineProps<Props>(), {})
+
 
 onMounted(() => {
+  const typebotInitScript = document.createElement("script");
+  typebotInitScript.type = "module";
 
+  typebotInitScript.innerHTML = `import Typebot from 'https://cdn.jsdelivr.net/npm/@typebot.io/js@0.3.12/dist/web.js'
+  Typebot.initStandard(${JSON.stringify(props.config)});
+`;
+  document.body.append(typebotInitScript);
 })
 </script>
