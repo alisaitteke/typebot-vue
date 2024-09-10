@@ -15,12 +15,12 @@ pnpm install @alisaitteke/typebot-vue
 [Typebot](https://typebot.io/) enables you to build customizable chatbots that can be embedded into websites or apps, allowing for user interaction in a friendly and automated way. The platform offers a drag-and-drop interface, making it easy to create conversations, forms, and workflows to engage users.
 
 ---
-![screenshot](public/icons/components/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/alisaitteke/typebot-vue/master/public/icons/components/screenshot.png)
 
 ## Components
 
 ### Standard View 
-![screenshot](public/icons/components/standard.svg)
+![screenshot](https://raw.githubusercontent.com/alisaitteke/typebot-vue/master/public/icons/components/standard.svg)
 
 This component integrates the Typebot in a standard format. The bot is displayed directly on the page.
 
@@ -39,7 +39,7 @@ const typeBotStandardConfig = {
 ```
 ---
 ### Popup View
-![screenshot](public/icons/components/popup.svg)
+![screenshot](https://raw.githubusercontent.com/alisaitteke/typebot-vue/master/public/icons/components/popup.svg)
 
 
 This component displays Typebot as a popup. You can control when the popup automatically appears using autoShowDelay after the page has loaded.
@@ -60,7 +60,7 @@ const typeBotPopupConfig = {
 ```
 ---
 ### Bubble View
-![screenshot](public/icons/components/bubble.svg)
+![screenshot](https://raw.githubusercontent.com/alisaitteke/typebot-vue/master/public/icons/components/bubble.svg)
 
 This component displays a chat bubble in the corner of the page. When the user clicks on the bubble, the chatbot opens. You can also customize the theme and the preview message displayed on the bubble.
 
