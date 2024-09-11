@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 ## [0.0.8] - 2024-09-11
 
+### ⚙️ Miscellaneous Tasks
+
+- *(npm-publish-github-packages.yml)* Remove unnecessary comments and blank lines for cleaner codebase
+
+## [0.0.8] - 2024-09-11
+
 ### 🚀 Features
 
 - *(components)* Add TypebotBubbleComponent, TypebotPopupComponent, and TypebotStandardComponent Vue type definitions and mappings
