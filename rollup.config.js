@@ -2,7 +2,7 @@ import vue from 'rollup-plugin-vue'
 import typescript from 'rollup-plugin-typescript2';
 import postcss from 'rollup-plugin-postcss';
 import peerDepsExternal from 'rollup-plugin-peer-deps-external'
-import { terser } from 'rollup-plugin-terser'
+import {terser} from 'rollup-plugin-terser'
 
 export default [
     {
@@ -11,12 +11,16 @@ export default [
             {
                 format: 'esm',
                 file: 'dist/index.mjs',
-                plugins: [terser()]
+                plugins: [terser()],
+                sourcemap: true,
+                exports: 'auto'
             },
             {
                 format: 'cjs',
                 file: 'dist/index.js',
-                plugins: [terser()]
+                plugins: [terser()],
+                sourcemap: true,
+                exports: 'auto'
             }
         ],
         plugins: [
@@ -33,6 +37,7 @@ export default [
             }),
             postcss(),
             peerDepsExternal()
-        ]
+        ],
+        external: ['vue', 'nuxt'],
     }
 ]
