@@ -132,4 +132,3 @@ Normally, the component names would follow the standard naming convention like `
 ---
 # Disclaimer
 This project is an unofficial Vue.js plugin for integrating Typebot into web applications. [Typebot](https://typebot.io/) is a registered trademark of its respective owners. This plugin is not affiliated with or endorsed by the [Typebot](https://typebot.io/) team. For official information, please visit [typebot.io](https://typebot.io/).
-
