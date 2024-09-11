@@ -1,7 +1,7 @@
 # Vue 3 [Typebot](https://typebot.io/) Components
 
-<img src="public/icons/vue-logo.svg" alt="drawing" height="40"/>
-<img src="public/icons/typebot-logo.svg" alt="drawing" height="40"/>
+<img src="https://raw.githubusercontent.com/alisaitteke/typebot-vue/master/public/icons/vue-logo.svg" alt="drawing" height="40"/>
+<img src="https://raw.githubusercontent.com/alisaitteke/typebot-vue/master/public/icons/typebot-logo.svg" alt="drawing" height="40"/>
 
 ### Install
 ```shell
@@ -88,6 +88,42 @@ const typeBotBubbleConfig = {
 </script>
 
 ```
+
+---
+
+<img src="https://raw.githubusercontent.com/alisaitteke/typebot-vue/master/public/icons/nuxt-logo.svg" alt="drawing" height="70"/>
+
+## Using with Nuxt.js
+
+To use the Typebot Vue plugin in a Nuxt.js project, follow these steps:
+
+### Step 1. Create a Plugin File
+In your Nuxt.js project, create a `typebot.client.js` file in the `plugins/` directory:
+
+```js
+// plugins/typebot.client.js
+import { defineNuxtPlugin } from '#app'
+import TypebotVue from '@alisaitteke/typebot-vue'
+
+export default defineNuxtPlugin(nuxtApp => {
+    nuxtApp.vueApp.use(TypebotVue)
+})
+```
+
+### Step 2. Register the Plugin in nuxt.config.js
+Add the following entry to your nuxt.config.js to register the plugin:
+
+```js
+export default {
+  plugins: [
+    { src: '~/plugins/typebot.client.js', mode: 'client' }
+  ]
+}
+```
+
+This setup ensures that the Typebot Vue plugin is initialized on the client-side only in your Nuxt.js project.
+
+
 ---
 
 ### Why Custom Component Names?
