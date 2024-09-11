@@ -3,6 +3,15 @@
   "version": "0.0.5",
   "private": false,
   "description": "Typebot Vue 3 Addon",
+  "keywords": [
+    "vue",
+    "typebot",
+    "nuxt",
+    "vuejs",
+    "vue3-plugin",
+    "nuxt3-plugin",
+    "nuxt-plugin"
+  ],
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "files": [
